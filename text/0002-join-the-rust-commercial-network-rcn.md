@@ -1,6 +1,6 @@
 - Change Name: join-the-rust-commercial-network-rcn
 - Start Date: 2026-06-22
-- RFC PR: [safety-critical-rust-consortium-rfcs/rfcs#0002](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium-rfcs/pull/0000)
+- RFC PR: [safety-critical-rust-consortium-rfcs/rfcs#0002](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium-rfcs/pull/8)
 - Issue: [safety-critical-rust-consortium-rfcs/issues#0007](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium-rfcs/issues/7)
 
 # Summary
