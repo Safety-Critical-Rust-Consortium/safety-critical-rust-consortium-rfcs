@@ -6,20 +6,24 @@
 # Summary
 [summary]: #summary
 
-The Safety-Critical Rust Consortium (SCRC) was [announced][scrc-announcement] in June 2024 as a rallying point for those organizations and industries which seek to use Rust in a safety-critical ecosystem to band together and solve problems for themselves. The [Rust Commercial Network](https://github.com/Rust-Commercial-Network/rcn) (RCN) was announced in May of 2026 as a means to start similarly grouped initiatives, working groups, and consortia. SCRC leadership worked with drafters of the RCN charter to ensure that language was placed in it which would allow for the SCRC to continue to function as it always has, with the option to part ways if interests no longer remain aligned. The RCN seems to be a natural fit for the SCRC and allows us broader exposure to other activities happening between the Rust Project, the Rust Foundation, and industry, so we propose for the SCRC to join the RCN.
+The [Safety-Critical Rust Consortium][scrc-repo] (SCRC) was [announced][scrc-announcement] in June 2024 as a rallying point for those organizations and industries which seek to use Rust in a safety-critical ecosystem to band together and solve problems for themselves. The [Rust Commercial Network][rcn-repo] (RCN) was announced in May of 2026 as a means to start similarly grouped initiatives, working groups, and consortia. SCRC leadership worked with drafters of the RCN charter to ensure that language was placed in it which would allow for the SCRC to continue to function as it always has, with the option to part ways if interests no longer remain aligned. The RCN seems to be a natural fit for the SCRC and allows us broader exposure to other activities happening between the Rust Project, the Rust Foundation, and industry, so we propose for the SCRC to join the RCN.
 
 # Motivation
 [motivation]: #motivation
 
-The Rust Commercial Network seeks 
+The Rust Commercial Network seeks to operate outside of the purview of the Rust Project, but in close collaboration with the Project and the Rust Foundation for the benefit of groups of commercial users that have shared interests.
 
-Any changes to Safety-Critical Rust Consortium artifacts should focus on solving a problem that users of Rust are having related to safety-critical domain usage.
-This section should explain this problem in detail, including necessary background.
+In a nutshell, the [RCN README][rcn-overview] gives our main motivation to join as the Safety-Critical Rust Consortium:
 
-It should also contain several specific use cases where this change can help a user, and explain how it helps.
-This can then be used to guide the design of the change or artifact.
+> Where Rust users, businesses, and communities work together to make Rust easier to adopt and maintain.
+> 
+> The Rust Commercial Network (RCN) is a Rust Foundation group for people and organizations using Rust in professional settings. Members compare notes on adoption blockers, improve Rust supply chain health, and support the basic tooling, libraries, and maintenance work that make Rust dependable in production.
 
-This section is one of the most important sections of any RFC, and can be lengthy.
+For example, there's been talk of creating an [interest group for Rust toolchain/WebAssembly][rcn-wasm-interest-group] and a [standard async executor abstraction][rcn-std-async-executor-abstraction]. We are aware of some work to use WebAssembly System Interface (WASI) + Component Model + WebAssembly Interface Types (WIT) for interoperability between C++ and Rust. We're also aware of a desire for a safety-certifiable async executor.
+
+There's also been a desire raised by some within the Safety-Critical Rust Consortium for an initiative focused on making Rust easier to work with embedded hardware targets.
+
+Given the forming nucleus of Rust Project, Rust Foundation, and industry it seems valuable for the SCRC to join the RCN to remain better informed about and a part of these and future initiatives.
 
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
@@ -105,5 +109,9 @@ is not a reason to accept the current or a future RFC; such notes should be
 in the section on motivation or rationale in this or subsequent RFCs.
 The section merely provides additional information.
 
+[scrc-repo]: https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium
 [scrc-announcement]: https://rustfoundation.org/media/announcing-the-safety-critical-rust-consortium/
-[rcn]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+[rcn-repo]: https://github.com/Rust-Commercial-Network/rcn
+[rcn-overview]: https://github.com/Rust-Commercial-Network/rcn#rust-commercial-network-rcn
+[rcn-wasm-interest-group]: https://rust-lang.zulipchat.com/#narrow/channel/594428-commercial-network/topic/Rust.20toolchain.2F.20WebAssembly.20interest.20group/with/604294002
+[rcn-std-async-executor-abstraction]: https://rust-lang.zulipchat.com/#narrow/channel/594428-commercial-network/topic/Standard.20async.20executor.20abstraction/with/601550600
