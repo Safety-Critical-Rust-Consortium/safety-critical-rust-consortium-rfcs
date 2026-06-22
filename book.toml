@@ -1,0 +1,17 @@
+[book]
+title = "The Safety-Critical Rust Consortium RFC Book"
+
+[output.html]
+smart-punctuation = true
+no-section-label = true
+git-repository-url = "https://github.com/PLeVasseur/safety-critical-rust-consortium-rfcs"
+site-url = "/"
+
+[output.html.search]
+heading-split-level = 0
+
+[output.html.playground]
+runnable = false
+
+[build]
+extra-watch-dirs = ["text"]
