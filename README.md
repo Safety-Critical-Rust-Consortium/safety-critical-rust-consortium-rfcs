@@ -1,4 +1,4 @@
-# Safety-Critical Rust Consortium RFCs
+# Safety-Critical Rust Consortium RFCs - [RFC Book](https://rfcs.arewesafetycriticalyet.org/)
 
 [Safety-Critical Rust Consortium RFCs]: #scrc-rfcs
 
