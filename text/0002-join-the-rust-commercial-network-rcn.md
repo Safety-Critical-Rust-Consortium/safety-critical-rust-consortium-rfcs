@@ -46,6 +46,8 @@ The Rust Commercial Network is a natural hub for SCRC members to be able to inte
 
 For a concrete example, we are aware that in the [Eclipse S-CORE Project][eclipse-s-core-org] in the Eclipse SDV WG, there is the [Kyron][kyron-repo] project which seeks to make an async runtime / executor for Rust that could be safety-certified for use in safety-critical systems. There is shared membership between the Safety-Critical Rust Consortium and the Eclipse S-CORE Project and if we were involved with the Rust Commercial Network we could have our voice heard in discussions about [stanardizing abstractions over Rust's async executor concepts][rcn-std-async-executor-abstraction].
 
+Another example is the significant personal overlap with the long established Rust groups at AUTOSAR and SAE. Several active members of the SCRC have already been cooperating towards Rust industry adoption and standardization for years in these other groups and thus established a communication which can benefit the RCN.
+
 The membership of the SCRC to the RCN also facillitates the potential creation of new initiatives. For example, we're aware that there's a desire to start something of an Embedded Rust Initiative or similar in the RCN. The SCRC's presence in the RCN makes it easier to, when learning of these new ideas, spin them up in a lightweight manner as initiatives in the RCN.
 
 # Reference-level explanation
