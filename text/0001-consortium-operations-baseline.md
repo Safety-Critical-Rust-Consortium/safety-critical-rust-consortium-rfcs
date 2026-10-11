@@ -374,7 +374,7 @@ This baseline RFC enables several follow-on RFCs:
     * An example of this would be having what we currently call the Coding Guidelines Subcommittee be split into three teams:
       * Coding Guidelines Team: What we currently call the "Core Team" of the Coding Guidelines Subcommittee. The people on this team would then clearly be able to have permissions needed on the Safety-Critical Rust Coding Guidelines repo.
       * Coding Guidelines Contributors Team: The remainder of the Coding Guidelines Subcommittee which self-selected as Producers. Sub-team of Coding Guidelines Team. Team expectation to review and contribute to the coding guidelines.
-      * Coding Guidelines Observers Team: The remainder of the Coding Guidelines Subcommittee which self-selescted as Observers.  Sub-team of Coding Guidelines Team. No real expectation here, allows ability to join meetings.
+      * Coding Guidelines Observers Team: The remainder of the Coding Guidelines Subcommittee which self-selected as Observers.  Sub-team of Coding Guidelines Team. No real expectation here, allows ability to join meetings.
    * Meeting invites would still be sent out to all three teams sent out to the above.
 
 5. **A Mechanism to Change Team Memberships**: Given the breakdown of Teams, Contributor Teams, and Observer Teams it seems worthwhile to have there be a flexible mechanism to allow change in team membership.
