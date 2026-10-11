@@ -251,7 +251,7 @@ is "no", then the appropriate response is to close the RFC, not postpone it.)
 
 ### Consensus
 
-In a nutshell the premise  of [consensus decision-making][consensus] is that
+In a nutshell the premise of [consensus decision-making][consensus] is that
 a successful outcome is not where one side of a debate has "won", but rather
 where concerns from *all* sides have been addressed in some way. **This
 emphatically does not entail design by committee, nor compromised design**.
@@ -317,7 +317,7 @@ In either case, an alternative form of decision-making is needed.
      RFC. See [Blocking concern process] for the details. If the blocking concern
      cannot be resolved through that process, proceed to the next stage.
   2. The subcommittee chair is empowered to make a final decision, but should consult
-     with the the leadership team before doing so.
+     with the leadership team before doing so.
 
 The decision on which camp a decision falls into is the responsibility of the
 subcommittee chair, although they should consult with the leadership team if
