@@ -251,7 +251,7 @@ is "no", then the appropriate response is to close the RFC, not postpone it.)
 
 ### Consensus
 
-In a nutshell the premise  of [consensus decision-making][consensus] is that
+In a nutshell the premise of [consensus decision-making][consensus] is that
 a successful outcome is not where one side of a debate has "won", but rather
 where concerns from *all* sides have been addressed in some way. **This
 emphatically does not entail design by committee, nor compromised design**.
